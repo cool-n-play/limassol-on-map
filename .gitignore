@@ -1,0 +1,9 @@
+node_modules/
+web/dist/
+web/.vite/
+*.log
+.firebase/
+.env
+.env.*
+!.env.example
+.DS_Store
