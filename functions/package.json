@@ -1,0 +1,19 @@
+{
+  "name": "limassol-on-map-functions",
+  "private": true,
+  "engines": {
+    "node": "20"
+  },
+  "main": "index.js",
+  "scripts": {
+    "serve": "node local-server.js",
+    "start": "node local-server.js",
+    "test": "node --test lib/openingHours.test.js app.isOpenAt.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "firebase-admin": "^12.7.0",
+    "firebase-functions": "^6.3.0"
+  }
+}
